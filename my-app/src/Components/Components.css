@@ -1,0 +1,197 @@
+#loy img{
+    height: 590px;
+    border-radius: 19px;
+}
+#loy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iy{
+    display: flex;
+justify-content: space-evenly;
+}
+
+#carder{
+    border: 1px solid black;
+border-radius: 30px;
+}
+
+#upperinfo{
+    display: flex;
+    padding-left: 30px;
+}
+#lp{
+    padding-top: 19px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#upperinfo p{
+padding-left: 5px;
+font-size: 18px;
+}
+#innercarder{
+    padding-left: 35px;
+}
+#innercarder h3{
+    font-size: 60px;
+}
+#innercarder button{
+    width: 700px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color:#2181e2;
+    color: white;
+}
+
+#support{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#hand{
+    color: red;
+    font-size: 30px;
+}
+
+#support h2{
+    font-size: 18px;
+}
+#sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#support p{
+    text-align: center;
+}
+#description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+#description p{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1392px) {
+   #carder{
+    width: 620px;
+   }
+   #innercarder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   #innercarder button{
+    width: 500px;
+   }
+   #loy img{
+    height: 500px;
+
+}
+#loy{
+    margin-top: 100px;
+}
+
+  }
+
+
+  @media screen and (max-width: 1307px) {
+
+#iy{
+    flex-direction: column;
+}
+#loy2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  }
+
+
+  @media screen and (max-width: 781px) {
+#loy2 h1{
+
+    font-size: 20px;
+}
+#carder{
+    width: 400px;
+}
+#upperinfo{
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+#lp{
+    text-align: center;
+}
+#innercarder button{
+    width: 300px;
+}
+
+  }
+
+
+  @media screen and (max-width: 538px) {
+#loy img{
+    width: 400px;
+}
+
+  }
+
+  @media screen and (max-width: 422px) {
+    #loy img{
+height: 320px;
+padding: 10px;
+    }
+    #loy2 h1{
+        text-align: center;
+
+    }
+    
+    #carder{
+        width: 300px;
+    }
+    #innercarder button{
+        width: 200px;
+    }
+    #upperinfo p{
+        text-align: center;
+        padding-right: 20px;
+    }
+      }
+
+
+      @media screen and (max-width: 334px) {
+        #loy img{
+    height: 220px;
+    padding: 10px;
+        }
+        #loy2 h1{
+            text-align: center;
+    
+        }
+        
+        #carder{
+            width: 250px;
+        }
+        #innercarder button{
+            width: 150px;
+        }
+        #upperinfo p{
+            text-align: center;
+            padding-right: 20px;
+        }
+          }
